@@ -1,7 +1,7 @@
 import React from "react";
 import { FaCheck } from "react-icons/fa";
-import WorkAction from "./workAction";
 import StarRush from "./StarRush";
+import AgencyWorkAction from "./AgencyWorkAction";
 
 
 const AgencySection = () => {
@@ -163,7 +163,7 @@ const AgencySection = () => {
         </div>
       </div>
       </div>
-      <WorkAction />
+      <AgencyWorkAction/>
       <StarRush/>
      
     </section>

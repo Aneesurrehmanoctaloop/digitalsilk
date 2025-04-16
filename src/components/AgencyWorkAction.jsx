@@ -1,6 +1,6 @@
 import React from "react";
 
-const WorkAction = () => {
+const AgencyWorkAction = () => {
   return (
     <div className=" mt-20 flex w-full items-center pl-16 ">
        <div className="w-60 bg-green-700 h-32">
@@ -29,4 +29,4 @@ const WorkAction = () => {
   );
 };
 
-export default WorkAction;
+export default AgencyWorkAction;
