@@ -1,6 +1,6 @@
 import React from "react";
 
-const GridCard = () => {
+const CustomCard = () => {
   return (
     <>
     <div className=" grid grid-cols-4 gap-6 space-x-4 mt-20">
@@ -47,4 +47,4 @@ const GridCard = () => {
   );
 };
 
-export default GridCard;
+export default CustomCard;

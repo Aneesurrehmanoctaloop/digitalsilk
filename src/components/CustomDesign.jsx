@@ -1,6 +1,7 @@
 import React from 'react';
-import GridCard from './gridCard';
 import Button from './shared/Button';
+import CustomCard from './CustomCard';
+
 
 
 
@@ -40,7 +41,7 @@ const CustomDesign = () => {
       <div className="mt-10 flex justify-center items-center ">
         <Button text={"calculate your website"}/>
       </div>
-      <GridCard/>
+     <CustomCard/>
     </div>
    </div>
   );
