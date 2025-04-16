@@ -2,7 +2,7 @@ import React from "react";
 
 const StarRush = () => {
   return (
-    <div className="start flex items-center justify-start mt-10 ml-10">
+    <div className=" flex items-center justify-start mt-10 pb-20 pl-16">
       <div className="star-web flex items-center space-x-16">
         {/* Logo Section */}
         <div className="logo ">

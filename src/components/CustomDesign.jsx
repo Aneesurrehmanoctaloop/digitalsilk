@@ -1,16 +1,18 @@
 import React from 'react';
 import GridCard from './gridCard';
+import Button from './shared/Button';
 
 
 
 const CustomDesign = () => {
   return (
-    <div
-      className="flex flex-col items-center justify-between text-center py-20  bg-cover bg-center bg-no-repeat"
-      style={{
-        backgroundImage:
-          "url('https://www.digitalsilk.com/wp-content/uploads/2024/09/Custom_Web_Design_Pricing.jpg.webp')",
-      }}
+   <div className="px-16  bg-cover bg-center bg-no-repeat  pt-20 "  style={{
+    backgroundImage:
+      "url('https://www.digitalsilk.com/wp-content/uploads/2024/09/Custom_Web_Design_Pricing.jpg.webp')",
+  }}>
+     <div
+      className="flex container flex-col items-center justify-between text-center"
+     
     >
       <h2 className=" text-2xl font-bold md:text-4xl  text-white max-w-12xl mb-8">
         Custom Web Design Pricing For<span className="text-[#04E4FF] px-2">Each Client’s Objectives</span> 
@@ -36,10 +38,11 @@ const CustomDesign = () => {
       </ul>
 
       <div className="mt-10 flex justify-center items-center ">
-        <button className='bg-white text-blue-400 font-bold text-2xl py-5 px-16'>Calculate Your Website</button>
+        <Button text={"calculate your website"}/>
       </div>
       <GridCard/>
     </div>
+   </div>
   );
 };
 

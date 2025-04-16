@@ -99,7 +99,7 @@ const CaseStudies = () => {
       </div>
 
       {/* RIGHT SIDE */}
-      <div className="flex-1 mt-20 pr-20 pl-20">
+      <div className="flex-1 mt-20 pr-20 pl-20 pb-20">
         <div className="text-right text-[#1B2C5F]">
           <p className='font-normal text-2xl'>From Concept To Market:</p>
           <p className='font-normal text-2xl'>
