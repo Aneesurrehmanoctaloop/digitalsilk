@@ -2,10 +2,12 @@ import React from "react";
 import { FaCheck } from "react-icons/fa";
 import WorkAction from "./workAction";
 import StarRush from "./StarRush";
+import CustomDesign from "./CustomDesign";
 
 const AgencySection = () => {
   return (
-    <section className="bg-blue-950 py-10 px-5 text-white">
+    <>
+     <section className="bg-blue-950 py-10 px-5 text-white">
       {/* Marquee Slider */}
       <div class="mb-10">
         <marquee direction="left" scrollamount="5">
@@ -170,7 +172,10 @@ const AgencySection = () => {
       </div>
       <WorkAction />
       <StarRush/>
+     
     </section>
+     <CustomDesign/></>
+   
   );
 };
 
